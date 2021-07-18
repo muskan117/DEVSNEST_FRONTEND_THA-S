@@ -1,0 +1,58 @@
+body{
+  height:100vh;
+   display:flex;
+   background-color: rgb(231, 168, 108);
+}
+#container{
+   height:640px;
+   width:640px;
+   margin:auto;
+   
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-wrap:wrap;
+   
+}
+
+.box{
+   background-color: rgb(218, 18, 61);
+   width:30px;
+   height:30px;
+   border:1px solid rgb(240, 92, 6);
+}
+.box:hover{
+   opacity: 0.5;
+}
+.change{
+   animation:light 20s infinite;
+}
+@keyframes light {
+    0%{
+       background-color: rgb(253,80,0);;
+    }
+    10%{
+       background-color: rgb(253,215,0);;
+    }
+     40% {
+       background-color: rgb(0, 173, 253);
+     }
+     50% {
+       background-color: rgb(0, 89, 253);
+     }
+     60% {
+       background-color: rgba(141, 32, 184, 0.726);
+     }
+     70% {
+       background-color: rgb(131, 26, 105);
+     }
+     80% {
+       background-color: rgb(173, 0, 253);
+     }
+     90% {
+       background-color: rgb(123, 202, 248);
+     }
+     100% {
+       background-color: rgb(59, 59, 59);
+     }
+}

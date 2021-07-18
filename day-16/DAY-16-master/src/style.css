@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.App{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction:row;
+ 
+
+}
+.card{
+    margin: 20px 0px;
+    border: 1px solid rgb(70,66,66);
+    padding: 10px 20px;
+    width: 400px;
+    display: inline-block;
+    margin: auto;
+
+}
+.card img {
+    width:100% ;
+
+}
