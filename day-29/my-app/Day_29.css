@@ -1,0 +1,38 @@
+.day29_weather
+{
+    margin: auto;
+    background-color: transparent;
+    width: 550px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+
+.day29_input
+{
+    margin-left: 130px;
+    height: 40px;
+    width: 290px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    font-size: 27px;
+    
+}
+.day29_inputdark
+{
+    margin-left: 130px;
+    height: 40px;
+    width: 290px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 27px;
+    
+}
